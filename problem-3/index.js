@@ -9,39 +9,46 @@
 
 // A:1+2+3+.....50 ?????????
 
- var sum=1;
+//  var sum=1;
 
-for(i=1; i<=50; i=i+1){
-    sum=sum+i;
-    console.log(sum);
-   }
+// for(i=1; i<=50; i=i+1){
+//     sum=sum+i;
+//     console.log(sum);
+//    }
   
 
-//  1+3+5+...+29 ( প্রথম ২০টি পদ) ?????????
+// //  1+3+5+...+29 ( প্রথম ২০টি পদ) ?????????
 
-sum=1;
-for(i=1; i<=20; i=i+1){
-    sum=sum+i;
-    console.log(sum);
-}
+// sum=1;
+// for(i=1; i<=20; i=i+1){
+//     sum=sum+i;
+//     console.log(sum);
+// }
 
-// 50 + 49 + 48 + 47 + …… ( প্রথম ১০টি পদ)????????
-sum=50;
-for(i=50; i<=47; i=i-1){
-    sum=sum+i;
+// // 50 + 49 + 48 + 47 + …… ( প্রথম ১০টি পদ)????????
+// sum=50;
+// for(i=50; i<=47; i=i+1){
+//     sum=sum+i;
    
-}
-console.log(sum);
+// }
+// console.log(sum);
 
 
 
 
-// 2 + 5 + 8 + 11 + 14 + …..   (প্রথম ১০টি পদ)???????
-sum=2;
-for(i=2; i<=14; i=i+1){
-    sum=sum+i;
-    console.log(sum);
-}
+
+// // 2 + 5 + 8 + 11 + 14 + …..   (প্রথম ১০টি পদ)???????
+// sum=2;
+// for(i=2; i<=14; i=i+1){
+//     sum=sum+i;
+//     console.log(sum);
+// }
 
 
 // 100 + 97 + 94 + 91 + ….  (0 এর চেয়ে বড় পর্যন্ত)???????
+sum=1;
+for(i=1; i<=100; i=i+1){
+    sum=sum.reverse()+i;
+    console.log(sum);
+}
+
