@@ -11,8 +11,9 @@ else if (i==0){
     document.write(" it,s a zero number = " +i);
   }
 
- else if(i<0) {
-    document.write(" it,s a negative number=" +i); 
+  
+ else  {
+    document.write(" it,s a negative number-1"); 
       
   }
   
